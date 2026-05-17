@@ -1,0 +1,10 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "echo Build Successful",
+    "test": "echo Test Successful",
+    "start": "node app.js"
+  }
+}
