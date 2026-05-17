@@ -20,6 +20,6 @@ jobs:
       - name: Test Stage
         run: npm test
       - name: Deployment Stage
-        env:
-          app_key: ${{ secrets.app_key }}
-        run: echo "Deployment Successful"
+        env:
+          app_key: ${{ secrets.app_key }}
+        run: echo "Deployment Successful"
